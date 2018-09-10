@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Author</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+
+    <nav>
+            <!-- <a href="/">Home</a> -->
+            <a href="/books">Books</a>
+            <a href="/authors">Authors</a>
+            <a href="/logout" class="right-item">Logout</a>
+            <a class="right-item">User: <%=user_name %></a>
+    </nav>
+    <div class="container">
+
+        <h1 class="title-head">Our Authors</h1>
+
+        <% for(var data of authors){ %>
+        <a href="/authors/<%=data.author_id %>">
+        <div class="card">
+                <div class="card-body">
+                    <div class="flex-container">
+                        <div>
+                            <img src="../<%=data.pic_url %>" class="author_img">
+                        </div>
+                        <div>
+                            <h3><%=data.author_name %></h3>
+                            <h4>Category: <%=data.category %></h4>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <% }%>
+    </div>
+
+</body>
+
+</html>

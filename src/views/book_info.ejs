@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Books</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="/books">Books</a>
+        <a href="/authors">Authors</a>
+        <a href="/logout" class="right-item">Logout</a>
+        <a class="right-item">User: <%=user_name %></a>
+    </nav>
+    <div class="container">
+        <h1 class="title-head"><%=title %></h1>
+
+            <div class="card-center">
+                    <div class="card-body">
+                        <div class="flex-container">
+                            <div>
+                                <img src="../<%=pic_url %>" class="book_img">
+                            </div>
+                            <div>
+                                <h3><%=title %></h3>
+                                <h4>Author: <%=author_name %></h4>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+    </div>
+</body>
+
+</html>

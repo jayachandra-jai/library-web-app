@@ -1,0 +1,42 @@
+{
+  "name": "08-jayachandra-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslintwatch": "nodemon --exec eslint src/*.js src/controllers/*.js ",
+    "test-watch": "npm run test",
+    "start": "npm-run-all --parallel eslintwatch test-watch server-start db",
+    "test": "mocha",
+    "server-start": "nodemon src/*.js",
+    "db": "node src/bin/db_connection.js",
+    "db-setup": "node src/bin/db_setup.js",
+    "db-insert": "node src/bin/db_insert_data.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.4",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.1.0"
+  }
+}
