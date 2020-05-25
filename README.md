@@ -34,8 +34,9 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ npm install npm -g
 ### MySQL
+You can find the installation information on the official <a href="https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/">MySQL website</a>
 ### Mongo DB
-
+You can find the installation information on the official <a href="https://docs.mongodb.com/manual/installation"> Mongo DB </a>
 ## Install
 
     $ git clone https://github.com/jayachandra-jai/web-app
