@@ -1,0 +1,4 @@
+node_modules/
+.eslintrc.js
+logs/
+package-lock.json

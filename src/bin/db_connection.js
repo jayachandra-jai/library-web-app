@@ -4,7 +4,7 @@ async function getConnection() {
   return mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'Profit@123',
     database: 'library',
   });
 }

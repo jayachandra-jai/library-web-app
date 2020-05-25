@@ -8,8 +8,8 @@ function getConnection() {
   return mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
-    database: 'testDb',
+    password: 'Profit@123',
+    database: 'library',
   });
 }
 

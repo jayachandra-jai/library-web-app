@@ -2859,3 +2859,91 @@
 {"message":"::1 - - [10/Sep/2018:18:14:11 +0000] \"GET /logout HTTP/1.1\" 302 46 \"http://localhost:9090/authors/aid1\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n","level":"info"}
 {"message":"::1 - - [10/Sep/2018:18:14:11 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:9090/authors/aid1\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n","level":"info"}
 {"message":"::1 - - [10/Sep/2018:18:14:11 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n","level":"info"}
+{"name":"MongoNetworkError","level":"error"}
+{"name":"MongoNetworkError","level":"error"}
+{"name":"MongoNetworkError","level":"error"}
+{"name":"MongoNetworkError","level":"error"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Users Collection created","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"::1 - - [25/May/2020:05:55:37 +0000] \"GET / HTTP/1.1\" 200 1329 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:55:37 +0000] \"GET /css/main.css HTTP/1.1\" 200 2296 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:55:38 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:55:53 +0000] \"GET /signupPage HTTP/1.1\" 200 1422 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:55:53 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/signupPage\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"::1 - - [25/May/2020:05:56:16 +0000] \"POST /signup HTTP/1.1\" 200 1329 \"http://localhost:9090/signupPage\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:56:16 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/signup\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"::1 - - [25/May/2020:05:56:39 +0000] \"POST /login HTTP/1.1\" 302 46 \"http://localhost:9090/signup\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:56:39 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:9090/signup\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:56:39 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"::1 - - [25/May/2020:05:57:03 +0000] \"POST /login HTTP/1.1\" 302 46 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:57:03 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:05:57:03 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"User Document Inserted","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:02 +0000] \"GET /books HTTP/1.1\" 302 46 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:02 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:02 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:10 +0000] \"GET /books HTTP/1.1\" 302 46 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:10 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:15 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:24 +0000] \"GET /books HTTP/1.1\" 302 46 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:24 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:24 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"Database Connected!","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"POST /login HTTP/1.1\" 302 54 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /books HTTP/1.1\" 200 3554 \"http://localhost:9090/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /img/books/book2.jpg HTTP/1.1\" 200 19540 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /img/books/book3.jpg HTTP/1.1\" 200 22226 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /img/books/book1.png HTTP/1.1\" 200 60841 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:42 +0000] \"GET /img/books/book1.jpg HTTP/1.1\" 200 188435 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:53 +0000] \"GET /books/bid3 HTTP/1.1\" 200 1006 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:53 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/books/bid3\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:00:53 +0000] \"GET /img/books/book3.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books/bid3\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:05 +0000] \"GET /authors HTTP/1.1\" 200 2166 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:05 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/authors\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:05 +0000] \"GET /img/authors/author1.jpg HTTP/1.1\" 200 20529 \"http://localhost:9090/authors\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:05 +0000] \"GET /img/authors/author2.jpg HTTP/1.1\" 200 63735 \"http://localhost:9090/authors\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:05 +0000] \"GET /img/authors/author3.jpg HTTP/1.1\" 200 216218 \"http://localhost:9090/authors\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /books HTTP/1.1\" 304 - \"http://localhost:9090/authors\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /img/books/book1.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /img/books/book2.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /img/books/book3.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:01:10 +0000] \"GET /img/books/book1.png HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:05 +0000] \"GET /books/bid1 HTTP/1.1\" 200 994 \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:05 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/books/bid1\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:05 +0000] \"GET /img/books/book1.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books/bid1\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /books HTTP/1.1\" 304 - \"http://localhost:9090/books/bid1\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /css/main.css HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /img/books/book1.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /img/books/book2.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /img/books/book3.jpg HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [25/May/2020:06:02:10 +0000] \"GET /img/books/book1.png HTTP/1.1\" 304 - \"http://localhost:9090/books\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\"\n","level":"info"}

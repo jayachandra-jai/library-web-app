@@ -28,7 +28,7 @@ async function main() {
     var connection=await mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "Profit@123",
         database: "library"
     });
 

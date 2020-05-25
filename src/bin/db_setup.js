@@ -5,14 +5,14 @@ async function main() {
     let connection = await mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      password: '',
+      password: 'Profit@123',
     });
 
     await connection.execute('CREATE DATABASE IF NOT EXISTS library');
     connection = await mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      password: '',
+      password: 'Profit@123',
       database: 'library',
     });
 
