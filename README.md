@@ -39,7 +39,7 @@ You can find the installation information on the official <a href="https://dev.m
 You can find the installation information on the official <a href="https://docs.mongodb.com/manual/installation"> Mongo DB website</a> 
 ## Install
 
-    $ git clone https://github.com/jayachandra-jai/web-app
+    $ git clone https://github.com/jayachandra-jai/library-web-app
     $ cd web-app
     $ npm install
 
